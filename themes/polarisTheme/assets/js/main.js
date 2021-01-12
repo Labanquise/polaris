@@ -11,14 +11,3 @@ function generate()
     email[1].textContent = email[0].value;
     tel[1].textContent = tel[0].value;
 }
-
-function copyToClip(str) {
-    function listener(e) {
-        e.clipboardData.setData("text/html", str);
-        e.clipboardData.setData("text/plain", str);
-        e.preventDefault();
-    }
-    document.addEventListener("copy", listener);
-    document.execCommand("copy");
-    document.removeEventListener("copy", listener);
-};
