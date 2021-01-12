@@ -1,0 +1,4 @@
+baseURL = "https://labanqui.se/polaris/"
+languageCode = "fr-fr"
+title = "Polaris Generator"
+theme = "polarisTheme"
